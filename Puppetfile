@@ -60,5 +60,13 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "chrome",      "1.1.2"
-github "firefox",     "1.2.1"
+github "chrome",          "1.1.2"
+github "firefox",         "1.2.1"
+
+github "iterm2",          "1.1.1"
+github "oh-my-zsh",       "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
+github "sublime_test_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
+github "java",            "1.5.0"
+github "maven",           "1.0.0", :repo => "mrolafsson/puppet-maven"
+
+
