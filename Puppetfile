@@ -60,13 +60,38 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "chrome",          "1.1.2"
-github "firefox",         "1.2.1"
+github "alfred",        "1.2.0" # https://github.com/boxen/puppet-alfred
+github "atom",          "1.0.0" # https://github.com/boxen/puppet-atom
+github "caffeine",      "1.0.0" # https://github.com/boxen/puppet-caffeine/tags
+github "chrome",        "1.1.2" # https://github.com/boxen/puppet-chrome/tags
+github "cyberduck",     "1.0.1" # https://github.com/boxen/puppet-cyberduck
+github "dropbox",       "1.2.0" # https://github.com/boxen/puppet-dropbox/tags
+github "evernote",      "2.0.6" # https://github.com/boxen/puppet-evernote
+github "firefox",       "1.2.1" # https://github.com/boxen/puppet-firefox
+github "heroku",        "2.1.1" # https://github.com/boxen/puppet-heroku/tags
+#github "hipchat",       "1.1.2" # https://github.com/boxen/puppet-hipchat/tags
+github "htop",          "1.0.0", :repo => "skottler/puppet-htop"
+github "intellij",      "1.4.0" # https://github.com/boxen/puppet-intellij
+github "iterm2",        "1.1.1" # https://github.com/boxen/puppet-iterm2/tags
+github "java",          "1.5.0" # https://github.com/boxen/puppet-java/tags
+github "maven",         "1.0.0", :repo => "mrolafsson/puppet-maven"
+github "ohmyzsh",       "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
+github "onepassword",   "1.1.0" # https://github.com/boxen/puppet-onepassword/tags
+github "osx",           "2.4.0" # https://github.com/boxen/puppet-osx/tags
+github "python",        "1.3.0" # https://github.com/boxen/puppet-python/tags
+github "spotify",       "1.0.1" # https://github.com/boxen/puppet-spotify
+github "sbt",           "0.0.1", :repo => "steinim/puppet-sbt"
+github "skype",         "1.0.8" # https://github.com/boxen/puppet-skype
+#github "sizeup",        "1.0.0" # https://github.com/boxen/puppet-sizeup/tags
+github "sublime_text",  "1.0.1" # https://github.com/boxen/puppet-sublime_text
+github "tunnelblick",   "1.0.6" # https://github.com/boxen/puppet-tunnelblick/tags
+github "vagrant",       "3.0.9" # https://github.com/boxen/puppet-vagrant/tags
+github "vcsrepo",       "0.2.0", :repo => "puppetlabs/puppetlabs-vcsrepo" # https://github.com/puppetlabs/puppetlabs-vcsrepo/tags
+github "virtualbox",    "1.0.11" # https://github.com/boxen/puppet-virtualbox/tags
+github "vlc",           "1.1.0" # https://github.com/boxen/puppet-vlc/tags
+github "vmware_fusion", "1.1.0" # https://github.com/boxen/puppet-vmware_fusion/tags
+github "zsh",           "1.0.0" # https://github.com/boxen/puppet-zsh/tags
 
-github "iterm2",          "1.1.1"
-github "oh-my-zsh",       "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
-github "sublime_test_3",  "1.0.3", :repo => "jozefizso/puppet-sublime_text_3"
-github "java",            "1.5.0"
-github "maven",           "1.0.0", :repo => "mrolafsson/puppet-maven"
+
 
 
