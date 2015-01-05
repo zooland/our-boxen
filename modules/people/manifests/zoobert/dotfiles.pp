@@ -1,18 +1,18 @@
 class people::zoobert::dotfiles {
-  $home     = "/Users/${::boxen_user}"
-  $my       = "${home}/src"
-  $dotfiles = "${my}/dotfiles"
+#  $home     = "/Users/${::boxen_user}"
+#  $my       = "${home}/src"
+#  $dotfiles = "${my}/dotfiles"
 
-  file { $my:
-    ensure  => directory
-  }
+#  file { $my:
+#    ensure  => directory
+#  }
 
-  repository { $dotfiles:
-    source  => 'zoobert/dotfiles',
-    require => File[$my]
-  }
+#  repository { $dotfiles:
+#    source  => 'zoobert/dotfiles',
+#    require => File[$my]
+#  }
 
-  exec { "install dotfiles":
-    command => "$my/script/install.sh"
-  }
+#  exec { "install dotfiles":
+#    command => "$my/script/install.sh"
+#  }
 }
