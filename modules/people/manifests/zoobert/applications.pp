@@ -22,7 +22,7 @@ class people::zoobert::applications {
 #  include skype
 #  include vlc
 #  include vagrant
-#  include zsh
+  include zsh
 
 #  class { 'intellij':
 #    edition => 'ultimate',
