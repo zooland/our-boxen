@@ -24,6 +24,8 @@ class people::zoobert::applications {
 #  include vagrant
   include zsh
 
+  include sublime_text
+
 #  class { 'intellij':
 #    edition => 'ultimate',
 #    version => '13.1.3'
