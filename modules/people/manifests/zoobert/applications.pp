@@ -1,5 +1,5 @@
 class people::zoobert::applications {
-  include alfred
+#  include alfred
 #  include atom
 #  include caffeine
 #  include chrome
@@ -9,12 +9,12 @@ class people::zoobert::applications {
 #  include firefox
 #  include htop
 
-#  include iterm2::stable
-#  include iterm2::colors::solarized_light
-#  include iterm2::colors::solarized_dark
+  include iterm2::stable
+  include iterm2::colors::solarized_light
+  include iterm2::colors::solarized_dark
 
 # include java
-#  include ohmyzsh
+  include ohmyzsh
 #  include python
 #  include rdio
 #  include sbt
