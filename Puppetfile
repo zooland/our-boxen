@@ -63,11 +63,11 @@ github "xquartz",     "1.2.1"
 #github "alfred",        "1.4.0" # https://github.com/boxen/puppet-alfred
 #github "atom",          "1.2.0" # https://github.com/boxen/puppet-atom
 #github "caffeine",      "1.0.0" # https://github.com/boxen/puppet-caffeine/tags
-#github "chrome",        "1.2.0" # https://github.com/boxen/puppet-chrome/tags
+github "chrome",        "1.2.0" # https://github.com/boxen/puppet-chrome/tags
 #github "cyberduck",     "1.0.1" # https://github.com/boxen/puppet-cyberduck
 #github "dropbox",       "1.4.1" # https://github.com/boxen/puppet-dropbox/tags
 #github "evernote",      "2.0.7" # https://github.com/boxen/puppet-evernote
-#github "firefox",       "1.2.3" # https://github.com/boxen/puppet-firefox
+github "firefox",       "1.2.3" # https://github.com/boxen/puppet-firefox
 #github "heroku",        "2.1.1" # https://github.com/boxen/puppet-heroku/tags
 #github "htop",          "1.0.0", :repo => "skottler/puppet-htop"
 #github "intellij",      "1.5.1" # https://github.com/boxen/puppet-intellij
