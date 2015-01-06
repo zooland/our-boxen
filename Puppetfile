@@ -82,7 +82,7 @@ github "ohmyzsh",       "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 #github "sbt",           "0.0.1", :repo => "steinim/puppet-sbt"
 #github "skype",         "1.0.8" # https://github.com/boxen/puppet-skype
 ##github "sizeup",        "1.0.0" # https://github.com/boxen/puppet-sizeup/tags
-github "sublime_text",  "1.0.1" # https://github.com/boxen/puppet-sublime_text
+github "sublime_text",  "1.1.0" # https://github.com/boxen/puppet-sublime_text
 #github "tunnelblick",   "1.0.6" # https://github.com/boxen/puppet-tunnelblick/tags
 #github "vagrant",       "3.0.9" # https://github.com/boxen/puppet-vagrant/tags
 #github "vcsrepo",       "0.2.0", :repo => "puppetlabs/puppetlabs-vcsrepo" # https://github.com/puppetlabs/puppetlabs-vcsrepo/tags

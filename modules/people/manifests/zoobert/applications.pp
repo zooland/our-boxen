@@ -2,19 +2,23 @@ class people::zoobert::applications {
 #  include alfred
 #  include atom
 #  include caffeine
-#  include chrome
 #  include cyberduck
 #  include dropbox
 #  include evernote
-#  include firefox
 #  include htop
 
+  # Shell/Terminal installation/setup
+  include zsh
+  include ohmyzsh
   include iterm2::stable
   include iterm2::colors::solarized_light
   include iterm2::colors::solarized_dark
 
+  # Browser installation/setup
+  include chrome
+  include firefox
+
 # include java
-  include ohmyzsh
 #  include python
 #  include rdio
 #  include sbt
@@ -22,8 +26,8 @@ class people::zoobert::applications {
 #  include skype
 #  include vlc
 #  include vagrant
-  include zsh
 
+  # Editor installation/setup
   include sublime_text
 
 #  class { 'intellij':
@@ -31,11 +35,11 @@ class people::zoobert::applications {
 #    version => '13.1.3'
 #  }
 
-#  wbond/sublime_package_control
-#sublime_text_3::package { 'Emmet':
-#  source => 'sergeche/emmet-sublime'
-#}
-#  sublime_text_3::package { 'Package Control':
-#    source => 'wbond/sublime_package_control'
-#  }
+  sublime_text_3::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
+
+  sublime_text_3::package { 'Package Control':
+    source => 'wbond/sublime_package_control'
+  }
 }
