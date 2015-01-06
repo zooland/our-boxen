@@ -8,6 +8,7 @@ class people::zoobert::applications {
 #  include htop
 
   # Shell/Terminal installation/setup
+  include osx
   include zsh
   include ohmyzsh
   include iterm2::stable

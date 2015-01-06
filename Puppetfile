@@ -76,7 +76,7 @@ github "firefox",       "1.2.3" # https://github.com/boxen/puppet-firefox
 #github "maven",         "1.0.0", :repo => "mrolafsson/puppet-maven"
 github "ohmyzsh",       "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 #github "onepassword",   "1.1.0" # https://github.com/boxen/puppet-onepassword/tags
-#github "osx",           "2.4.0" # https://github.com/boxen/puppet-osx/tags
+github "osx",           "2.8.0" # https://github.com/boxen/puppet-osx/tags
 #github "python",        "1.3.0" # https://github.com/boxen/puppet-python/tags
 #github "spotify",       "1.0.1" # https://github.com/boxen/puppet-spotify
 #github "sbt",           "0.0.1", :repo => "steinim/puppet-sbt"
