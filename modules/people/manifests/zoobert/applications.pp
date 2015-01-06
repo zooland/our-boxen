@@ -35,11 +35,15 @@ class people::zoobert::applications {
 #    version => '13.1.3'
 #  }
 
-  sublime_text_3::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
-  }
-
   sublime_text_3::package { 'Package Control':
     source => 'wbond/sublime_package_control'
   }
+
+  sublime_text_3::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  } 
+
+  sublime_text_3::package { 'Puppet':
+    source => 'russCloak/SublimePuppet'
+  } 
 }
